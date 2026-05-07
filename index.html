@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostARV - AI-Powered Hosting</title>
+    <meta name="description" content="HostARV: The next generation of AI-optimized hosting is coming soon.">
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <span class="host">Host</span><span class="arv">ARV</span>
+        </div>
+
+        <div class="header-right">
+            <!-- Language Selector -->
+            <div class="language-dropdown">
+                <button class="lang-btn">
+                    <span class="flag">🇺🇸</span>
+                    <span class="lang-code">EN</span>
+                    <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </button>
+                <div class="lang-menu">
+                    <a href="#" class="lang-item active" data-lang="en"><span class="flag">🇺🇸</span> English</a>
+                    <a href="#" class="lang-item" data-lang="tr"><span class="flag">🇹🇷</span> Türkçe</a>
+                    <a href="#" class="lang-item" data-lang="de"><span class="flag">🇩🇪</span> Deutsch</a>
+                    <a href="#" class="lang-item" data-lang="fr"><span class="flag">🇫🇷</span> Français</a>
+                    <a href="#" class="lang-item" data-lang="es"><span class="flag">🇪🇸</span> Español</a>
+                    <a href="#" class="lang-item" data-lang="it"><span class="flag">🇮🇹</span> Italiano</a>
+                    <a href="#" class="lang-item" data-lang="ru"><span class="flag">🇷🇺</span> Русский</a>
+                    <a href="#" class="lang-item" data-lang="cn"><span class="flag">🇨🇳</span> 中文</a>
+                    <a href="#" class="lang-item" data-lang="jp"><span class="flag">🇯🇵</span> 日本語</a>
+                    <a href="#" class="lang-item" data-lang="pt"><span class="flag">🇵🇹</span> Português</a>
+                </div>
+            </div>
+
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="badge" data-i18n="hero-badge">Coming Soon</div>
+            <h1 class="hero-title" data-i18n="hero-title">The AI of<br>Your Data Center</h1>
+            <p class="hero-subtitle" data-i18n="hero-subtitle">HostARV is a next-generation hosting platform that
+                analyzes and optimizes your infrastructure in real-time.</p>
+
+            <div class="scroll-indicator">
+                <span data-i18n="scroll-text">Scroll Down</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Vertical Feed / Cards -->
+        <div class="feed">
+
+            <!-- Card 1 -->
+            <article class="card">
+                <div class="card-icon">🧠</div>
+                <div class="card-content">
+                    <h2 data-i18n="card1-title">AI-Managed Infrastructure</h2>
+                    <p data-i18n="card1-desc">Your servers are no longer static. HostARV infrastructure analyzes your
+                        traffic and resource usage second by second, continuously optimizing itself for maximum
+                        performance.</p>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card">
+                <div class="card-icon">⚡</div>
+                <div class="card-content">
+                    <h2 data-i18n="card2-title">Auto-Scalable Resources</h2>
+                    <p data-i18n="card2-desc">Your site won't slow down during traffic spikes. Our system instantly
+                        provisions the CPU and RAM you need, while saving resources during quiet times.</p>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card">
+                <div class="card-icon">🛡️</div>
+                <div class="card-content">
+                    <h2 data-i18n="card3-title">Smart Security & Monitoring</h2>
+                    <p data-i18n="card3-desc">Beyond ordinary firewalls; our anomaly detection algorithms predict and
+                        block attacks before they even happen.</p>
+                </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card">
+                <div class="card-icon">📊</div>
+                <div class="card-content">
+                    <h2 data-i18n="card4-title">Advanced Reporting</h2>
+                    <p data-i18n="card4-desc">See insights, not just logs. Dive deep into your site's health and visitor
+                        behavior with our modern dashboards.</p>
+                </div>
+            </article>
+
+            <!-- Card 5 -->
+            <article class="card special-card">
+                <div class="card-icon">🚀</div>
+                <div class="card-content">
+                    <h2 data-i18n="card5-title">More Coming Soon</h2>
+                    <p data-i18n="card5-desc">We are making final preparations to bring you the HostARV experience. Stay
+                        tuned to witness the revolution in hosting.</p>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-label" data-i18n="footer-contact-label">Get in touch:</p>
+        <a href="mailto:contact@hostarv.com" class="email-box">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+            </svg>
+            contact@hostarv.com
+        </a>
+        <p class="company-name">Trenox LTD</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
